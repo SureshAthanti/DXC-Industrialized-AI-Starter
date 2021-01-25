@@ -13,7 +13,6 @@ from rl.memory import SequentialMemory
 from rl.random import OrnsteinUhlenbeckProcess
 
 def Main_Helper(env_name, model_name):
-  env = gym.make(env_name)
 
   nb_actions = 0
   if (model_name == "DQN"):
